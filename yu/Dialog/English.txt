@@ -1,0 +1,165 @@
+yu_testcampaign= A New Story
+
+yu_testcampaign_1_test= Here we go again
+
+#MADELINE Expression preview
+MADELINE_EXPRESSION_PREVIEW=
+[MADELINE left normal]
+Normal preview
+[MADELINE left distracted]
+distracted preview
+[MADELINE left sad]
+sad preview
+[MADELINE left deadpan]
+deadpan preview
+[MADELINE left determined]
+determinated preview
+[MADELINE left surprised]
+surprised preview
+[MADELINE left upset]
+upset preview
+[MADELINE left angry]
+angry preview
+[MADELINE left panic]
+panic preview
+[MADELINE left sadder]
+sadder preview
+[MADELINE left peaceful]
+peaceful preview
+
+1_TEST_R01_01_DIALOG_1=
+[MADELINE left panic]
+Argh...
+Where am i?
+[BADELINE right normal]
+Finally you get there!
+Welcome!
+[MADELINE left surprised]
+Ba...Badeline?!
+You are not dead?
+[BADELINE right upset]
+Of course not!
+#Not the right expression, TO CHANGE !
+[MADELINE left normal]
+Why? You should be gone.
+[BADELINE right normal]
+I came back few weeks ago.
+[BADELINE right serious]
+Its seems you still have some problems.
+[MADELINE left sadder]
+.{0.5}.{0.5}.
+[BADELINE right normal]
+I will be your guide here.
+Let's move!
+
+1_TEST_R01_01_DIALOG_2=
+[BADELINE right concerned]
+I forgot one things!
+You can't dash through those rooms.
+
+1_TEST_R01_02_DIALOG_1=
+[BADELINE right yell]
+WAIT!!
+[MADELINE left surprised]
+ARGH!
+[MADELINE left angry]
+What?
+[Badeline right normal]
+I told you that you can't dash.
+But.{0.5}.{0.5}
+Actually you can!
+[BADELINE right scoff]
+You just have to find!
+Good luck!
+[MADELINE left deadpan]
+Such a lame..
+
+1_TEST_R01_03_DIALOG_1=
+[THEO right normal]
+You can dash before changing the room to reset your dash and get upper on the choosen room.
+To do it, Dash to upper-left direction.{n}Once you change the room after dashing, dash to upper-right direction and reapeat the process.
+Once you are on the top of this room, dash to up direction.
+Use the crate as reference to use your dash.
+
+1_TEST_R01_04_STRAWBERRY_DIALOG_1=
+[THEO right normal]
+You found a strawberry Madeline!
+[MADELINE left surprised]
+Theo?!
+Its been a while!
+[THEO right excited]
+Yea!!
+Happy to see you again!
+[MADELINE left peaceful]
+I'm happy yes! What happen?
+[THEO right worried]
+I can't talk too much Madeline.. unfortunatly.
+[THEO right normal]
+But you can found some strawberry through the chapter!
+Find hard ! Some of them are too well hidden.
+[MADELINE left sad]
+Oh..well..
+[]
+Theo will be your tips and tricks characters.
+He will appear sometimes at some crucial moments.
+
+1_TEST_R01_05_DIALOG_1=
+[BADELINE right normal]
+You just found your first challenge!
+Look at this!
+Its beautiful.
+[MADELINE left panic]
+I have to go all over this??
+I will never do it...
+[BADELINE right serious]
+You have
+To
+DO IT!
+
+1_TEST_R01_05_DIALOG_2=
+[BADELINE right upset]
+Madeline?
+[MADELINE left normal]
+What's up?
+[BADELINE right normal]
+You thinks is over ?
+You are wrong.{0.5}.{0.5}
+[MADELINE left panic]
+What do you mean?!
+[BADELINE right serious_alt]
+GET
+DOWN!!
+
+1_TEST_R01_05_DIALOG_3=
+[GRANNY right laugh]
+Seems you came back at the beginning
+[GRANNY right mock]
+Good luck.
+[MADELINE left sadder]
+{0.5}.{0.5}.{0.5}.
+
+1_TEST_R01_05_DIALOG_GRANNY=
+#Make dialog to finish the chapter
+[GRANNY right normal]
+You did it!
+[MADELINE left normal]
+Thanks grandma!
+[GRANNY right laugh]
+I'm joking!
+That was just a luck.
+[GRANNY right mock]
+You are not enough strong.
+Some news chapters come very soon and you are not enough fast to beat it before its over.
+[MADELINE left sadder]
+{0.5}.{0.5}.{0.5}.
+Grandma{0.5}.{0.5}.{0.5}.{1}Please..
+I will beat all the things..
+
+1_TEST_R01_05_STRAWBERRY_01=
+[THEO right normal]
+Before you go..
+Just to warning you that you will get down at the beginning once you leave this room.
+
+
+
+poem_yu_testcampaign_1_test_A=A New Beginning
