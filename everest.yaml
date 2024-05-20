@@ -1,14 +1,18 @@
 - Name: yu
   Version: 0.0.1
   Dependencies:
+    - Name: AurorasHelper
+      Version: 0.11.0
     - Name: ChineseNewYear2024Collab
       Version: 2.0.14
+    - Name: CommunalHelper
+      Version: 1.20.2
     - Name: CrystallineHelper
       Version: 1.15.3
     - Name: DJMapHelper
       Version: 1.13.4
     - Name: Everest
-      Version: 1.4771.0
+      Version: 1.4783.0
     - Name: FlaglinesAndSuch
       Version: 1.6.22
     - Name: FrostHelper

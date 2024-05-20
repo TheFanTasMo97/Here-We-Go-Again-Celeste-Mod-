@@ -16,24 +16,38 @@ local function makeCoroutine(func)
 end
 
 function onBegin()
-	local x = 0
-	local y = -2100
-	local defaultX = getLevel().Camera.X
-	local defaultY = getLevel().Camera.Y
+	local alreadyHadCinamtics = getFlag("alreadyHadCinematics")
 
-	disableMovement()
+	if not alreadyHadCinamtics then
+		local x = 0
+		local y = -2100
+		local defaultX = getLevel().Camera.X
+		local defaultY = getLevel().Camera.Y
 
-	getLevel():add(coroutineEntity)
-	-- Move Camera to a certain point x and y
-	coroutineEntity:add(monocle.Coroutine(celeste.CutsceneEntity.CameraTo(vector2(x, y), 10)))
-	waitingCoroutine = makeCoroutine(waitTilCameraMoved)
-	cutsceneEntity:Add(waitingCoroutine)
-	while not goodToGo do
-		wait()
+		disableMovement()
+		disablePause()
+		getLevel():add(coroutineEntity)
+
+		-- Move Camera to a certain point x and y
+		coroutineEntity:add(monocle.Coroutine(celeste.CutsceneEntity.CameraTo(vector2(x, y), 10)))
+
+		waitingCoroutine = makeCoroutine(waitTilCameraMoved)
+		cutsceneEntity:Add(waitingCoroutine)
+
+		while not goodToGo do
+			wait()
+		end
+
+		say("1_TEST_R01_05_DIALOG_1")
+
+		-- Move camera to a default position before it moved
+		coroutine.yield(celeste.CutsceneEntity.CameraTo(vector2(defaultX, defaultY), 1))
+
+		enableMovement()
+		enablePause()
+
+		setFlag("alreadyHadCinematics", true)
 	end
-	say("1_TEST_R01_05_DIALOG_1")
-	coroutine.yield(celeste.CutsceneEntity.CameraTo(vector2(defaultX, defaultY), 1))
-	enableMovement()
 end
 
 function onEnd()

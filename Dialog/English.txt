@@ -27,6 +27,8 @@ sadder preview
 [MADELINE left peaceful]
 peaceful preview
 
+# --------------- Here We Go Again | Chapter 1 ---------------
+#Dialog Room 1
 1_TEST_R01_01_DIALOG_1=
 [MADELINE left panic]
 Argh...
@@ -39,9 +41,9 @@ Ba...Badeline?!
 You are not dead?
 [BADELINE right upset]
 Of course not!
-#Not the right expression, TO CHANGE !
-[MADELINE left normal]
-Why? You should be gone.
+#Better expression but to confirm
+[MADELINE left distracted]
+You should be gone!
 [BADELINE right normal]
 I came back few weeks ago.
 [BADELINE right serious]
@@ -57,6 +59,7 @@ Let's move!
 I forgot one things!
 You can't dash through those rooms.
 
+#Dialog Room 2
 1_TEST_R01_02_DIALOG_1=
 [BADELINE right yell]
 WAIT!!
@@ -74,6 +77,7 @@ Good luck!
 [MADELINE left deadpan]
 Such a lame..
 
+#Dialog Room 3
 1_TEST_R01_03_DIALOG_1=
 [THEO right normal]
 You can dash before changing the room to reset your dash and get upper on the choosen room.
@@ -81,9 +85,9 @@ To do it, Dash to upper-left direction.{n}Once you change the room after dashing
 Once you are on the top of this room, dash to up direction.
 Use the crate as reference to use your dash.
 
-1_TEST_R01_04_STRAWBERRY_DIALOG_1=
+1_TEST_R01_03_HINT_DIALOG_01=
 [THEO right normal]
-You found a strawberry Madeline!
+You can climb without losing stamina.
 [MADELINE left surprised]
 Theo?!
 Its been a while!
@@ -94,15 +98,10 @@ Happy to see you again!
 I'm happy yes! What happen?
 [THEO right worried]
 I can't talk too much Madeline.. unfortunatly.
-[THEO right normal]
-But you can found some strawberry through the chapter!
-Find hard ! Some of them are too well hidden.
-[MADELINE left sad]
-Oh..well..
-[]
-Theo will be your tips and tricks characters.
-He will appear sometimes at some crucial moments.
+The ghost show you how the way have to be done.
+To do it, jump on the wall, make no movement and jump then came back on the wall. 
 
+#Dialog Room 5
 1_TEST_R01_05_DIALOG_1=
 [BADELINE right normal]
 You just found your first challenge!
@@ -138,8 +137,14 @@ Good luck.
 [MADELINE left sadder]
 {0.5}.{0.5}.{0.5}.
 
+1_TEST_R01_05_HINT_DIALOG_01=
+[THEO right normal]
+You can go higher with the wall.
+To do it, Dash up close to the wall and jump on the wall to go upper.
+Don't forget to look at the ghost.
+#To add: Emoji to show button
+
 1_TEST_R01_05_DIALOG_GRANNY=
-#Make dialog to finish the chapter
 [GRANNY right normal]
 You did it!
 [MADELINE left normal]
@@ -154,6 +159,28 @@ Some news chapters come very soon and you are not enough fast to beat it before 
 {0.5}.{0.5}.{0.5}.
 Grandma{0.5}.{0.5}.{0.5}.{1}Please..
 I will beat all the things..
+[MADELINE left determinated]
+Believe in me!
+[]
+You just get your first Heart.
+Go through all the chapter to get more heart.
+Some hearts can be hidden before the end of the chapter.{n}Those heart not resume to a finished chapter but an additionnal heart to get.
+You will need patience and determination to complete all chapters. Good luck !
+{1.5}
+No more chapter is available for now. We are working on it but we want to complete and make a clean chapter 1 before.{n}Thanks for your understanding.
+
+#Dialog strawberry room
+1_TEST_R01_04_STRAWBERRY_DIALOG_1=
+[THEO right normal]
+You found a strawberry Madeline!
+[THEO right normal]
+You can found some strawberry through the chapter!
+Find hard! Some of them are too well hidden.
+[MADELINE left sad]
+Oh..well..
+[]
+Theo will be your tips and tricks characters.
+He will appear sometimes at some crucial moments.
 
 1_TEST_R01_05_STRAWBERRY_01=
 [THEO right normal]
@@ -161,5 +188,5 @@ Before you go..
 Just to warning you that you will get down at the beginning once you leave this room.
 
 
-
+#Final sentence at the end of the chapter when you get the heart
 poem_yu_testcampaign_1_test_A=A New Beginning
