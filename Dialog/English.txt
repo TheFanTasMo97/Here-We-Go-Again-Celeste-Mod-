@@ -188,5 +188,9 @@ Before you go..
 Just to warning you that you will get down at the beginning once you leave this room.
 
 
+# ---------- Checkpoints ----------
+# Chapter 1
+yu_testcampaign_1_test_R01_05=Final Room
+
 #Final sentence at the end of the chapter when you get the heart
 poem_yu_testcampaign_1_test_A=A New Beginning
